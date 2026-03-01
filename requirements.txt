@@ -1,0 +1,43 @@
+# ─── Core ────────────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.0
+httpx>=0.27.0
+
+# ─── AI / LLM ────────────────────────────────────────────────────────────────
+anthropic>=0.28.0
+
+# ─── Graph ───────────────────────────────────────────────────────────────────
+networkx>=3.3
+
+# ─── Optimization ────────────────────────────────────────────────────────────
+pymoo>=0.6.1            # Multi-objective (NSGA-II, NSGA-III)
+scipy>=1.13.0           # minimize, linear_sum_assignment
+pulp>=2.8.0             # MILP constraint solving
+numpy>=1.26.0
+
+# ─── Machine Learning / Prediction ───────────────────────────────────────────
+scikit-learn>=1.4.0
+xgboost>=2.0.3
+pandas>=2.2.0
+
+# ─── Reinforcement Learning ───────────────────────────────────────────────────
+gymnasium>=0.29.1       # OpenAI Gym successor
+stable-baselines3>=2.3.0
+
+# ─── Visualization / Dashboard ───────────────────────────────────────────────
+streamlit>=1.35.0
+plotly>=5.22.0
+folium>=0.16.0
+streamlit-folium>=0.20.0
+matplotlib>=3.8.0
+
+# ─── Data ────────────────────────────────────────────────────────────────────
+redis>=5.0.4            # optional: real-time event bus
+psycopg2-binary>=2.9.9  # optional: PostgreSQL
+
+# ─── Dev / Test ──────────────────────────────────────────────────────────────
+pytest>=8.2.0
+pytest-asyncio>=0.23.7
